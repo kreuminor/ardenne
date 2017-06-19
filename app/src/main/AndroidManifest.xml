@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prep.ardenne.ardenneprep"
+    >
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        // Main Activities
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu.BookActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.AnnounceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.CalenderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.GalleryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.ExtraActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".map.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".map.ArdenneActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.TimeActivity"
+            android:screenOrientation="portrait"/>
+        // Booklist Activites
+        <activity android:name=".booklist.BookKActivity" />
+        <activity android:name=".booklist.Book1Activity" />
+        <activity android:name=".booklist.Book2Activity" />
+        <activity android:name=".booklist.Book3Activity" />
+        <activity android:name=".booklist.Book4Activity" />
+        <activity android:name=".booklist.Book5Activity" />
+        <activity android:name=".booklist.Book6Activity" />
+        // TimeTable Activites
+        <activity android:name=".time.TimeKActivity" />
+        <activity android:name=".time.Time1Activity" />
+        <activity android:name=".time.Time2Activity" />
+        <activity android:name=".time.Time3Activity" />
+        <activity android:name=".time.Time4Activity" />
+        <activity android:name=".time.Time5Activity" />
+        <activity android:name=".time.Time6Activity" />
+        // Google Map API Key
+        <meta-datacolin.holness
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".messaging.MessageActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".messaging.Message1Activity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        // Login
+        <activity android:name=".login.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.ProfileActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".login.ResetPasswordActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".login.SignupActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".login.EditActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        //Side
+        <activity android:name=".AchieveActivity"
+            android:screenOrientation="portrait"/>
+        // Guest
+        <activity android:name=".AboutUsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".guest.AboutUsGActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".guest.AchieveGActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".guest.AdmissionsGActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".guest.ExtraGActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".guest.HistoryGActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.staff.StaffActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SplashGActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".menu.AdminActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.time.TimesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.homework.Kinder1CActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.homework.Kinder1BActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.homework.Grade1CActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.homework.Grade1JActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menu.HCentreActivity"
+            android:screenOrientation="portrait"/>
+        // HomeScreen
+        <activity android:name=".WebActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".map.MapsGActivity"
+            android:screenOrientation="portrait"/>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".map.MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+    </application>
+
+</manifest>

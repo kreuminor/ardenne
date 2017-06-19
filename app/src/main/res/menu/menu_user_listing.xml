@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prep.ardenne.ardenneprep.login.LoginActivity">
+
+    <item
+        android:id="@+id/Times"
+        android:icon="@drawable/ic_schedule"
+        android:title="Schedule"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+</menu>

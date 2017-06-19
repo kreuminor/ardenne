@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/user"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_achieve"
+            android:icon="@drawable/books"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/nav_admissions"
+            android:icon="@drawable/gal"
+            android:title="Admissions" />
+        <item
+            android:id="@+id/nav_extra"
+            android:icon="@drawable/cric"
+            android:title="Extra Curricular" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/newspaper"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/map1"
+            android:title="School Location" />
+    </group>
+
+</menu>

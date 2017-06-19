@@ -1,0 +1,245 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Ardenne Preparatory</string>
+
+    <string name="closeDrawer">Navigation View Closed</string>
+    <string name="openDrawer">Navigation View Opened</string>
+
+    <string name="title">Only the Best is Done Here</string>
+
+    <string name="user_name">Ardenne Preparatory</string>
+    <string name="email">ardenneprep@gmail.com</string>
+
+    <string name="right_side_navigationview">Right Side NavigationView - add code
+        to perform some actions on current content</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings for FireBase -->
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+    <string name="id_fmt">User ID: %s</string>
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+    <string name="progress_auth">Signing In…</string>
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    //Chat
+
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+    <string name="register">Register</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">GUEST</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back">
+                <![CDATA[<< Back]]>
+    </string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="Announce">Announcements</string>
+
+    <!--School website-->
+    <string name="SchoolURL">http://hs.grandblancschools.org</string>
+
+    <!--Error handling-->
+    <string name="NoAnnouncements">No announcements.</string>
+    <string name="AnnounceLoadError">Could not load announcements.</string>
+    <string name="NoCalendar">Could not load calendar.</string>
+    <string name="NoTwitterRefresh">Could not reload tweets.</string>
+    <string name="Retry">Retry</string>
+
+    <!--Buttons-->
+    <string name="CalendarWeb">Open 2016–2017 Calendar</string>
+    <string name="East">East Campus</string>
+    <string name="West">West Campus</string>
+    <string name="LearnMore">Learn More</string>
+
+    <!--Schedule-->
+    <string name="fullday">Full Day</string>
+    <string name="halfday">Half Day</string>
+    <string name="latestart">Late Start</string>
+
+    <string name="fulldaytimes">
+    1st Hour:    7:20 – 8:19 (59 minutes)
+    \n2nd Hour:    8:25 - 9:23 (58 minutes)
+    \n3rd Hour:    9:29 - 10:32 (63 minutes with announcements)
+    \n\nA Lunch:    10:32 - 11:02 (class starts at 11:08)
+    \nB Lunch:    11:05 - 11:35 (class starts at 11:38)
+    \nC Lunch:    11:38 - 12:08
+    \n\n4th Hour:   10:38 - 12:08
+    \n5th Hour:   12:14 - 1:12 (58 minutes)
+    \n6th Hour:    1:18 - 2:16 (58 minutes)
+    \n\n***There will be a tone at 8:16, 9:20, 10:29, 12:05 and 1:09 to release travelers to their next class. All non-traveling students must remain in class until the official end of the period.</string>
+
+    <string name="halfdaytimes">
+    1st Hour:    7:20 – 7:48 (28 minutes)
+    \n2nd Hour:    7:54 - 8:22 (28 minutes)
+    \n3rd Hour:    8:28 - 9:01 (29 minutes)
+    \n\nNo lunch is served on a half day.
+    \n\n4th Hour:   9:07 - 9:35 (28 minutes)
+    \n5th Hour:   9:41 - 10:09 (28 minutes)
+    \n6th Hour:    10:15 - 10:43 (28 minutes)
+    \n\n***There will be a tone at 7:45, 8:19, 8:58, 9:32 and 10:06 to release travelers to their next class. All non-traveling students must remain in class until the official end of the period.</string>
+
+    <string name="latestarttimes">
+    1st Hour:    9:40 – 10:11 (31 minutes)
+    \n2nd Hour:    10:17 - 10:48 (31 minutes)
+    \n3rd Hour:    10:54 - 11:25 (31 minutes)
+    \n\nA Lunch:    11:25 - 11:55 (class starts at 12:01)
+    \nB Lunch:    11:58 - 12:28 (class starts at 12:31)
+    \nC Lunch:    12:31 - 1:01
+    \n\n4th Hour:   11:31 - 1:01 (60 minutes of class)
+    \n5th Hour:   1:07 - 1:38 (31 minutes)
+    \n6th Hour:    1:44 - 2:16 (32 minutes)
+    \n\n***There will be a tone at 10:08, 10:45, 11:22, 12:58 and 1:35 to release travelers to their next class. All non-traveling students must remain in class until the official end of the period.</string>
+
+    <string name="Staff">Staff Listing</string>
+    <string name="Guidance">Guidance</string>
+    <string name="Admin">Administration</string>
+
+    <string name="PhoneWarn">Phones ring into the classroom so please make an effort to call before/after school or during a conference period.</string>
+    <string name="Continue">Continue</string>
+
+    <!--Hints-->
+    <string name="Search">Search…</string>
+
+    <!--Homework Centre-->
+
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

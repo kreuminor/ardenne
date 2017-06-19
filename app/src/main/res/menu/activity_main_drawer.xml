@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_announce"
+            android:icon="@drawable/newspaper"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/calender"
+            android:title="Calender of Events" />
+        <item
+            android:id="@+id/book"
+            android:icon="@drawable/books"
+            android:title="Class Booklists" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/times"
+            android:title="Class Timetables" />
+        <item
+            android:id="@+id/nav_extra"
+            android:icon="@drawable/cric"
+            android:title="Extra Curricular" />
+        <item
+            android:id="@+id/nav_homework"
+            android:icon="@drawable/gal"
+            android:title="Homework Center" />
+        <item
+            android:id="@+id/nav_achievement"
+            android:icon="@drawable/trophy"
+            android:title="School Achievements" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map1"
+            android:title="School Map" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/admin"
+            android:title="Staff (Administration)" />
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/staff"
+            android:title="Staff (School)" />
+
+    </group>
+
+</menu>

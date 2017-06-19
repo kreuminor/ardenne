@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4F7AC9</color>
+    <color name="colorPrimaryDark">#4F7AC9</color>
+    <color name="colorAccent">#005f97</color>
+    <color name="fab1_color">#4CAF50</color>
+    <color name="fab2_color">#91c7f3</color>
+    <color name="background">#005f97</color>
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_800">#212121</color>
+
+
+    <!-- Screens background -->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#fff809</color>
+    <color name="bg_screen4">#2e86c1</color>
+    <color name="bg_screen5">#8e44ad</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+
+    <!-- New Splash Screen -->
+    <color name="bg_splash">#e3ecfe</color>
+    <color name="text">#1A5276</color>
+
+    <color name="bg_screen3">#74a443</color>
+
+    <color name="colorNavText">#ffffff</color>
+    <color name="colorShop">#E5E7E9</color>
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="white">#ffffff</color>
+
+    <color name="windowBackground">#ff341008</color>
+</resources>

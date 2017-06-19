@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/dummy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/calendarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCal"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="1">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:numColumns="7"
+            android:selectedDateVerticalBar="@color/colorPrimary"
+            android:selectedWeekBackgroundColor="@color/colorPrimaryDark"
+            android:theme="@style/AppCompatAlertDialogStyle" />
+
+        <ListView
+            android:id="@+id/lstInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.8"
+            android:fadingEdgeLength="8dp"
+            android:gravity="center"
+            android:requiresFadingEdge="vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progCalendar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_event"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_event"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/NoCalendar"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/ic_action_open_in_browser"
+        android:drawablePadding="16dp"
+        android:drawableStart="@drawable/ic_action_open_in_browser"
+        android:text="@string/CalendarWeb" />
+
+
+</RelativeLayout>
