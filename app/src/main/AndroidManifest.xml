@@ -162,6 +162,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".map.MapsGActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".login.NewPasswordActivity"
+            android:screenOrientation="portrait"/>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

@@ -21,12 +21,14 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import com.prep.ardenne.ardenneprep.map.LocationActivity;
 import com.prep.ardenne.ardenneprep.map.MapsActivity;
 import com.prep.ardenne.ardenneprep.menu.AnnounceActivity;
 import com.prep.ardenne.ardenneprep.menu.BookActivity;
 import com.prep.ardenne.ardenneprep.menu.CalenderActivity;
 import com.prep.ardenne.ardenneprep.menu.ExtraActivity;
 import com.prep.ardenne.ardenneprep.menu.TimeActivity;
+import com.prep.ardenne.ardenneprep.menu.time.TimesActivity;
 import com.prep.ardenne.ardenneprep.profile.ProfileModelHome;
 
 
@@ -53,7 +55,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_home1, container, false);
-
+/*
         imgEmail = (ImageButton) v.findViewById(R.id.imageEmail);
         imgCall = (ImageButton) v.findViewById(R.id.imageCall);
         imgWeb = (ImageButton) v.findViewById(R.id.imageWeb);
@@ -92,20 +94,20 @@ public class HomeFragment extends Fragment {
                 getActivity().finish();
             }
         });
-/*
+*/
         profileModelArrayList = new ArrayList<>();
-        profileModelArrayList.add(new ProfileModelHome("Announcements", "", R.drawable.announce));
-        profileModelArrayList.add(new ProfileModelHome("Events", "", R.drawable.calen));
-        profileModelArrayList.add(new ProfileModelHome("Location", "", R.drawable.map));
-        profileModelArrayList.add(new ProfileModelHome("Booklists", "", R.drawable.book));
-        profileModelArrayList.add(new ProfileModelHome("Timetables", "", R.drawable.timetable));
-        profileModelArrayList.add(new ProfileModelHome("Extra Curricular", "", R.drawable.sports));
+        profileModelArrayList.add(new ProfileModelHome("Announcements", "", R.drawable.horns));
+        profileModelArrayList.add(new ProfileModelHome("Events", "", R.drawable.calender));
+        profileModelArrayList.add(new ProfileModelHome("Booklists", "", R.drawable.booker));
+        profileModelArrayList.add(new ProfileModelHome("Timetables", "", R.drawable.time));
+        profileModelArrayList.add(new ProfileModelHome("Location", "", R.drawable.maps));
+        profileModelArrayList.add(new ProfileModelHome("Extra Curricular", "", R.drawable.cric));
 
         lvProfilesm = (GridView) v.findViewById(R.id.grid);
         myAppAdapter = new MyAppAdapter(profileModelArrayList, getActivity());
         lvProfilesm.setAdapter(myAppAdapter);
         lvProfilesm.setOnItemClickListener(new ItemList());
-*/
+
         return v;
     }
 
@@ -193,21 +195,25 @@ public class HomeFragment extends Fragment {
             }
             else if (i == 2) {
 
-                Toast.makeText(getContext(), "Location", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), BookActivity.class);
+                startActivity(intent);
+                getActivity().finish();
+
             }
 
             else if (i == 3) {
 
-                Intent intent = new Intent(getActivity(), BookActivity.class);
+                Intent intent = new Intent(getActivity(), TimeActivity.class);
                 startActivity(intent);
                 getActivity().finish();
 
             }
             else if (i == 4) {
 
-                Intent intent = new Intent(getActivity(), TimeActivity.class);
+                Intent intent = new Intent(getActivity(), MapsActivity.class);
                 startActivity(intent);
                 getActivity().finish();
+
 
             }
             else if (i == 5) {
@@ -217,6 +223,7 @@ public class HomeFragment extends Fragment {
                 getActivity().finish();
 
             }
+
         }
 
     }

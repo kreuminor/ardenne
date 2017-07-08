@@ -78,7 +78,7 @@ public class TimeActivity extends AppCompatActivity {
 
         });
 
-        getSupportActionBar().setTitle("TimeTables");
+        getSupportActionBar().setTitle("Class TimeTables");
 
     }
     public class MyAppAdapter extends BaseAdapter {

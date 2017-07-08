@@ -87,7 +87,7 @@ public class ProfileActivity extends AppCompatActivity implements NavigationView
                 }
             }
         };
-        getSupportActionBar().setTitle("Ardenne Preparatory");
+        getSupportActionBar().setTitle("A P E H S");
 
         //Home Page
 
@@ -185,14 +185,6 @@ public class ProfileActivity extends AppCompatActivity implements NavigationView
         } else if (id == R.id.nav_time) {
 
             Intent intent = new Intent(ProfileActivity.this, TimeActivity.class);
-            startActivity(intent);
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            item.setChecked(true);
-            finish();
-
-        } else if (id == R.id.nav_homework) {
-
-            Intent intent = new Intent(ProfileActivity.this, HCentreActivity.class);
             startActivity(intent);
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             item.setChecked(true);

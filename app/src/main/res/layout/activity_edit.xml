@@ -32,7 +32,8 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:weightSum="1">
 
         <EditText
             android:id="@+id/old_email"
@@ -122,7 +123,8 @@
             android:id="@+id/progressBar"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:visibility="gone" />
+            android:layout_gravity="center"
+            android:layout_weight="0.00" />
 
         <Button
             android:id="@+id/remove"
@@ -134,7 +136,8 @@
             android:background="@color/cardview_light_background"
             android:text="@string/btn_remove"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/change_email_button"
@@ -178,7 +181,8 @@
             android:background="@drawable/mybutton"
             android:text="@string/remove_user"
             android:textColor="@color/bg_splash"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/sign_out"

@@ -157,14 +157,6 @@ public class MainActivity extends AppCompatActivity
             item.setChecked(true);
             finish();
 
-        } else if (id == R.id.nav_homework) {
-
-            Intent intent = new Intent(MainActivity.this, Kinder1CActivity.class);
-            startActivity(intent);
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            item.setChecked(true);
-            finish();
-
         } else if (id == R.id.nav_extra) {
 
             Intent intent = new Intent(MainActivity.this, ExtraActivity.class);
