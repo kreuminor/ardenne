@@ -19,6 +19,7 @@
         "name": "Supporters"
       }
     ],
+
     "links": [
       {
         "name": "Android Pub Night",
@@ -44,7 +45,7 @@
     {
       "id": "holness",
       "name": "Colin Holness",
-      "bio": "BoJack Horseman is a self-loathing 52-year-old alcoholic horse whose acting career peaked when he starred in a successful family sitcom called Horsin' Around in the late 1980s and later 'The Bojack Horseman Show' which was cancelled after one season, in 2007.\n\nThough he began as a young bright-eyed actor, he has since grown bitter, deeply depressed, and jaded towards Hollywood and who he has become post-fame. BoJack has been shown to be caring and insightful, but his insecurities, loneliness, and desperate need for approval often result in self-destructive actions that devastate those around him.\n\nMany of his issues stem from his childhood and issues with his unhappy parents, which the audience is shown through flashbacks.",
+      "bio": "Colin Holness is a unique 42-year-old alcoholic stud whose acting career peaked when he starred in a successful family sitcom called Horsin' Around in the late 1980s and later 'The Bojack Horseman Show' which was cancelled after one season, in 2007.\n\nThough he began as a young bright-eyed actor, he has since grown bitter, deeply depressed, and jaded towards Hollywood and who he has become post-fame. BoJack has been shown to be caring and insightful, but his insecurities, loneliness, and desperate need for approval often result in self-destructive actions that devastate those around him.\n\nMany of his issues stem from his childhood and issues with his unhappy parents, which the audience is shown through flashbacks.",
       "image_path": "http://jeff.mimic.ca/p/androidto/bojack.jpg",
       "company": "Horsin' Around",
       "twitter": "https://twitter.com/BoJackHorseman",
@@ -82,6 +83,7 @@
       "github": "https://github.com/mimicmobile/flutter-conference-app"
     }
   ],
+
   "tracks": [
     {
       "id": "main",
@@ -99,6 +101,7 @@
       "color": "#B5BD68"
     }
   ],
+
   "talk_types": [
     {
       "id": "technical",
@@ -125,12 +128,14 @@
       "description": "Time for a break!"
     }
   ],
+
   "schedule": [
     {
-      "time": "8:00am",
+      "time": "8:00am", 
+      "when":"DAY 1",
       "talks": [
         {
-          "speaker_id": "bojack",
+          "speaker_id": "holness",
           "track_id": "main",
           "talk_type_id": "technical",
           "title": "Exist and you will be invented extraordinarilly.",
@@ -140,6 +145,7 @@
     },
     {
       "time": "8:30am",
+      "when":"DAY 1",
       "talks": [
         {
           "speaker_id": "diane",
@@ -159,6 +165,7 @@
     },
     {
       "time": "9:00am",
+      "when":"DAY 2",
       "talks": [
         {
           "speaker_id": "todd",
@@ -171,6 +178,7 @@
     },
     {
       "time": "10:00am",
+      "when":"DAY 3",
       "talks": [
         {
           "talk_type_id": "break",
