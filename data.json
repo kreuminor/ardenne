@@ -131,7 +131,7 @@
 
   "schedule": [
     {
-      "time": "8:00am", 
+      "time": "8:00am - 9:00am", 
       "when":"DAY 1",
       "talks": [
         {
