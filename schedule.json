@@ -1,6 +1,7 @@
 {
   "schedule": 
 {
+    "time":"8:30am - 9:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
     "when": "DAY 1",
@@ -11,6 +12,7 @@
     "location": ""
 },
 {
+    "time":"9:00am - 10:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
     "when": "DAY 1",
@@ -21,6 +23,7 @@
     "location": ""
   },
 {
+    "time":"8:30am - 9:00am",
     "speaker_id": "play",
     "speaker_name": "Hores Play",
     "when": "DAY 2",
@@ -31,6 +34,7 @@
     "location": ""
   },
 {
+    "time":"8:30am - 9:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
     "when": "DAY 3",
