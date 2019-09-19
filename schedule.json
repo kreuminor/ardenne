@@ -1,0 +1,43 @@
+{
+  "schedule": 
+{
+    "speaker_id": "holness",
+    "speaker_name": "Colin Holness",
+    "when": "DAY 1",
+    "day": "27th October, 2019",
+    "track_id": "Smart People",
+    "title": "Exist and you will be invented extraordinarilly",
+    "description": "Suns, moons, and apostolic winds will always protect them",
+    "location": ""
+},
+{
+    "speaker_id": "holness",
+    "speaker_name": "Colin Holness",
+    "when": "DAY 1",
+    "day": "-------",
+    "track_id": "Digital Description",
+    "title": "Silence is not closest in order, the home, or paradise, but everywhere.",
+    "description": "Samadhi is not one in chaos, the country of tantra, or paradise, but everywhere",
+    "location": ""
+  },
+{
+    "speaker_id": "play",
+    "speaker_name": "Hores Play",
+    "when": "DAY 2",
+    "day": "1121231",
+    "track_id": "People Anayltics",
+    "title": "Gabaliums ortum in quadrata!",
+    "description": "If you travel or do with an eternal anger, control studies you",
+    "location": ""
+  },
+{
+    "speaker_id": "holness",
+    "speaker_name": "Colin Holness",
+    "when": "DAY 3",
+    "day": "14141441",
+    "track_id": "Track 1",
+    "title": "",
+    "description": "",
+    "location": ""
+  }
+}
