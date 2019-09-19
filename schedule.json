@@ -1,6 +1,5 @@
-{
-  "schedule": 
-{
+﻿{     "Result": 	[
+ {
     "time":"8:30am - 9:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
@@ -10,8 +9,8 @@
     "title": "Exist and you will be invented extraordinarilly",
     "description": "Suns, moons, and apostolic winds will always protect them",
     "location": ""
-},
-{
+ },
+ {
     "time":"9:00am - 10:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
@@ -21,8 +20,8 @@
     "title": "Silence is not closest in order, the home, or paradise, but everywhere.",
     "description": "Samadhi is not one in chaos, the country of tantra, or paradise, but everywhere",
     "location": ""
-  },
-{
+ },
+ {
     "time":"8:30am - 9:00am",
     "speaker_id": "play",
     "speaker_name": "Hores Play",
@@ -32,8 +31,8 @@
     "title": "Gabaliums ortum in quadrata!",
     "description": "If you travel or do with an eternal anger, control studies you",
     "location": ""
-  },
-{
+ },
+ {
     "time":"8:30am - 9:00am",
     "speaker_id": "holness",
     "speaker_name": "Colin Holness",
@@ -43,5 +42,6 @@
     "title": "",
     "description": "",
     "location": ""
-  }
+ }
+			]    
 }
