@@ -1,46 +1,50 @@
 ﻿{     "Result": 	[
  {
-    "time":"8:30am - 9:00am",
-    "speaker_id": "holness",
-    "speaker_name": "Colin Holness",
+    "time":"7:30am - 9:30am",
+    "speaker_id": "regi",
+    "speaker_name": "",
     "when": "DAY 1",
-    "day": "27th October, 2019",
-    "track_id": "Smart People",
-    "title": "Exist and you will be invented extraordinarilly",
-    "description": "Suns, moons, and apostolic winds will always protect them",
-    "location": ""
+    "day": "Wed",
+    "track_id": "",
+    "title": "REGISTRATION",
+    "description": "Please go to the designated areas to complete registration for this conference",
+    "image":"",	
+    "location": "Lobby"
+ },
+ {
+    "time":"8:45am - 8:55am",
+    "speaker_id": "pump",
+    "speaker_name": "HR Secretariat",
+    "when": "DAY 1",
+    "day": "Wed",
+    "track_id": "",
+    "title": "HR Pump it Up",
+    "description": "",
+    "image":"",	
+    "location": "Grande Caribbean Suite"
+ },
+ {
+    "time":"8:55am - 9:00am",
+    "speaker_id": "dstew",
+    "speaker_name": "Donna Stewart",
+    "when": "DAY 1",
+    "day": "Wed",
+    "track_id": "",
+    "title": "Conference 39 Preview",
+    "description": "Conference 39 Preview",
+    "image":"",	
+    "location": "Grande Caribbean Suite"
  },
  {
     "time":"9:00am - 10:00am",
-    "speaker_id": "holness",
-    "speaker_name": "Colin Holness",
+    "speaker_id": "gfull",
+    "speaker_name": "Geofrey Fullerton",
     "when": "DAY 1",
-    "day": "-------",
-    "track_id": "Digital Description",
-    "title": "Silence is not closest in order, the home, or paradise, but everywhere.",
-    "description": "Samadhi is not one in chaos, the country of tantra, or paradise, but everywhere",
-    "location": ""
- },
- {
-    "time":"8:30am - 9:00am",
-    "speaker_id": "play",
-    "speaker_name": "Hores Play",
-    "when": "DAY 2",
-    "day": "1121231",
-    "track_id": "People Anayltics",
-    "title": "Gabaliums ortum in quadrata!",
-    "description": "If you travel or do with an eternal anger, control studies you",
-    "location": ""
- },
- {
-    "time":"8:30am - 9:00am",
-    "speaker_id": "holness",
-    "speaker_name": "Colin Holness",
-    "when": "DAY 3",
-    "day": "14141441",
-    "track_id": "Track 1",
-    "title": "",
-    "description": "",
+    "day": "Wed",
+    "track_id": "Application Growth",
+    "title": "PLENARY - Misalignment to Realignment for Success",
+    "description": "For organzational success to be achieved, the pursuit.................",
+    "image":"",	
     "location": ""
  }
 			]    
